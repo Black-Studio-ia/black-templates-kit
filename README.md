@@ -30,13 +30,12 @@ Fee: ~$0.01 · Confirm in 5-15 min
 2. Open `sales_page.html` → fill the form (email + TXID + network).
 3. Within 2 minutes, you receive the ZIP + password (`USDT20`).
 
-## 📂 Files
-| File | Description |
+## 📂 Files (on GitHub)
+| File | Link |
 |---|---|
-| `sales_page.html` | Public sales page (with QR + password) |
-| `black_templates_kit_2026.zip` | Protected ZIP (password: `USDT20`) |
-| `templates/template_*.html` | 10 templates (crypto, ai, saas, portfolio, agency, shop, blog, app, consult, event) |
-| `logo.html` | Black Studio logo |
+| Sales Page | https://sales.black-templates.dev (redirects to GitHub Pages) |
+| ZIP (protected) | https://github.com/Black-Studio-ia/black-templates-kit/raw/main/black_templates_kit_2026.zip |
+| Templates preview | https://github.com/Black-Studio-ia/black-templates-kit/tree/main/templates |
 
 ## 🔐 License
 MIT for source code. Templates are **products for sale** — not free.  
@@ -44,4 +43,4 @@ Each purchase = 1 personal license (use in your projects/clients).
 Reselling/redistributing unmodified templates is not allowed.
 
 ---
-© 2026 Black Studio — Built with Ollama + NVIDIA RTX Voice · m30na100%
+© 2026 Black Studio — Built with Ollama + NVIDIA RTX Voice
