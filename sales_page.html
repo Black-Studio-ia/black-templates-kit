@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Black Templates Kit — Buy with USDT (BEP-20 / TRC-20)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif}
+body{background:linear-gradient(135deg,#0a0e14 0%,#151b24 100%);color:#e2e8f0;min-height:100vh;padding:20px}
+.container{max-width:800px;margin:auto}
+header{text-align:center;padding:30px 0;border-bottom:2px solid #22c55e;margin-bottom:30px}
+h1{color:#22c55e;font-size:2.3em}
+h1 .logo{color:#93c5fd}
+.sub{color:#93c5fd;margin-top:8px}
+.hero{background:linear-gradient(135deg,#22c55e 0%,#16a34a 100%);padding:30px;border-radius:15px;margin:20px 0;text-align:center;border:1px solid #22c55e}
+.hero h2{color:#0a0e14;font-size:1.6em}
+.hero p{color:#0a0e14;font-weight:600}
+.wallet-card{background:#151b24;border:1px solid #1e293b;border-radius:12px;padding:20px;margin:15px 0}
+.wallet-card h3{color:#22c55e;margin-bottom:10px}
+.address-box{background:#0a0e14;border:1px solid #1e293b;border-radius:10px;padding:12px;font-family:'Courier New',monospace;font-size:14px;word-break:break-all;margin:8px 0;position:relative}
+.copy-btn{position:absolute;right:8px;top:8px;background:#22c55e;color:#0a0e14;border:none;padding:5px 10px;border-radius:5px;cursor:pointer;font-size:12px;font-weight:bold}
+.qr{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin:15px 0}
+.qr img{width:140px;height:140px;background:#0a0e14;border:1px solid #1e293b;border-radius:8px}
+.note{color:#93c5fd;font-size:13px;background:#0a0e14;padding:12px;border-radius:8px;margin:10px 0;border:1px solid #1e293b}
+.buy-btn{background:#22c55e;color:#0a0e14;border:none;padding:14px 30px;border-radius:10px;font-size:1.2em;font-weight:bold;cursor:pointer;width:100%;margin:12px 0;transition:.2s}
+.buy-btn:hover{background:#16a34a}
+.formula{background:#151b24;border-radius:12px;padding:25px;margin:20px 0;border:1px solid #1e293b}
+.formula h2{color:#22c55e;text-align:center;margin-bottom:15px}
+input{width:100%;padding:12px;border:none;border-radius:8px;background:#0a0e14;color:#e2e8f0;font-size:15px;margin:5px 0}
+.list-cred li{margin:6px 0;list-style:disc inside}
+footer{text-align:center;padding:20px;color:#64748b;font-size:13px}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1><span class="logo">🤖</span> Black Templates Kit</h1>
+<p class="sub">10 Professional HTML Templates — Instant Download via USDT</p>
+</header>
+
+<div class="hero">
+<h2>💰 20 USDT for the FULL kit (10 templates)</h2>
+<p>No subscriptions • No hidden fees • Delivered instantly</p>
+</div>
+
+<div class="note">
+✅ Copy the address, send <strong>20 USDT</strong>, then submit your email below → we email you the ZIP immediately.
+</div>
+
+<h3 style="color:#22c55e;text-align:center">Choose Your Network:</h3>
+
+<!-- بي إتش 20 (BEP-20) — الأسرع وأرخص -->
+<div class="wallet-card">
+<h3>🟢 BNB Smart Chain (BEP-20) — Recommended</h3>
+<div class="address-box">
+0x5164a8cf7a44b0b31deb875f59c6b1541dbdeb8d
+<button class="copy-btn" onclick="copyAddr('bsc')">Copy</button>
+</div>
+<div class="qr"><img src="https://api.qrserver.com/v1/Api/LiveBarcode/200x200?data=ethereum:0x5164a8cf7a44b0b31deb875f59c6b1541dbdeb8d/erc20" alt="BEP-20 QR"></div>
+<p style="color:#93c5fd;font-size:13px">🔹 Token: USDT-ERC20 (BEP-20 compatible)<br>🔹 Network Fee: $0.05-$0.2 • Fast (2-3 min)</p>
+</div><div id="bsc" style="display:none">0x5164a8cf7a44b0b31deb875f59c6b1541dbdeb8d</div>
+
+<!-- تي إر سي 20 — بديل آمن -->
+<div class="wallet-card">
+<h3>🟣 TRON (TRC-20) — Low fee alternative</h3>
+<div class="address-box">
+TXQCrX61CceFxX5gnFg9N3ssZEC7MavwBQ
+<button class="copy-btn" onclick="copyAddr('trx')">Copy</button>
+</div>
+<div class="qr"><img src="https://api.qrserver.com/v1/Api/LiveBarcode/200x200?data=tron:TXQCrX61CceFxX5gnFg9N3ssZEC7MavwBQ/USDT" alt="TRC-20 QR"></div>
+<p style="color:#93c5fd;font-size:13px">🔹 Network Fee: ~$0.01-$0.05 • Slower (5-15 min)</p>
+</div><div id="trx" style="display:none">TXQCrX61CceFxX5gnFg9N3ssZEC7MavwBQ</div>
+
+<div class="formula">
+<h2>📩 Enter your email to receive the ZIP</h2>
+<form id="paymentForm">
+<input type="email" id="email" placeholder="Your email (for delivery)" required>
+<input type="text" id="txid" placeholder="TXID / Transaction ID (optional)" >
+<input type="text" id="network" placeholder="Network used (BEP-20 / TRC-20)" required>
+<button type="submit" class="buy-btn">I Sent USDT → Email Me the Kit</button>
+</form>
+<div id="sentMsg" style="display:none;color:#22c55e;margin-top:10px;text-align:center">✅ Request sent! Check your email within 5 min.</div>
+</div>
+
+<h2 style="color:#22c55e;text-align:center">What You Get</h2>
+<ul class="list-cred">
+<li>✅ 10x Responsive HTML templates (crypto, ai, saas, portfolio, shop, blog, app, consult, event, agency)</li>
+<li>✅ Mobile-ready • Clean code • Easy customization</li>
+<li>✅ 1x sales page (this file) • 1x ZIP bundle</li>
+<li>✅ USDT payment (BEP-20 or TRC-20)</li>
+<li>✅ Lifetime access • No recurring fees</li>
+</ul>
+
+<footer>© 2026 Black Studio — محلي 100% (Ollama + USDT)</footer>
+</div>
+
+<script>
+function copyAddr(id) {
+  navigator.clipboard.writeText(document.getElementById(id).textContent).then(() => {
+    alert("✅ تم نسخ العنوان!");
+  });
+}
+document.getElementById("paymentForm").onsubmit = function(e) {
+  e.preventDefault();
+  const email = document.getElementById("email").value;
+  const txid = document.getElementById("txid").value || "N/A";
+  const network = document.getElementById("network").value;
+  alert(`✅ شكراً ${email}!\n${txid !== 'N/A' ? 'TXID: ' + txid + '\n' : ''}${network}\n\nسيتم إرسال الـ ZIP خلال 5 دقائق.\n(للتواصل: ia.creative.tn@gmail.com)`);
+  document.getElementById("sentMsg").style.display = "block";
+};
+</script>
+</body>
+</html>
