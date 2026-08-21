@@ -1,42 +1,47 @@
-# 🤖 Black Templates Kit (USDT)
+# Black Templates Kit — 10 HTML Templates (USDT Only)
 
-10 Professional HTML Templates — Buy with USDT only.
+> **20 USDT = Full kit (10 templates)** · Password-protected ZIP · Instant delivery
 
-## 💰 السعر: 20 USDT (لكل الـ kit)
+## ✅ What you get
+- 10 responsive HTML templates (crypto, AI, SaaS, portfolio, shop, blog, app, consult, event, agency)
+- Clean code, fully commented, easy to customize
+- 1x sales page, 1x ZIP bundle (password: `USDT20`)
+- Lifetime updates
+- **Payment: USDT only (BEP-20 or TRC-20)**
 
-### ✅ BNB Smart Chain (BEP-20) — الأسرع
+## 💰 Price: 20 USDT (for the WHOLE kit)
+
+### Option 1 — BNB Smart Chain (BEP-20) ✅ Recommended
 ```
 0x5164a8cf7a44b0b31deb875f59c6b1541dbdeb8d
+Token: USDT (BEP-20) · Fee: ~$0.1 · Confirm in 2-3 min
 ```
-### 🟣 TRON (TRC-20) — بديل رخيص
+
+### Option 2 — TRON (TRC-20)
 ```
 TXQCrX61CceFxX5gnFg9N3ssZEC7MavwBQ
+Fee: ~$0.01 · Confirm in 5-15 min
 ```
 
-## 📦 ما يحتاجه المشتري
-1. يرسل 20 USDT لمحفظة الخاصة بك
-2. يملأ النموذج (email + TXID)
-3. يحصل على `black_templates_kit_2026.zip` بالبريد
+> Scan the QR codes on `sales_page.html` to pay with your phone wallet.
 
-## 📁 القوالب
-- template_crypto • template_ai • template_saas • template_portfolio
-- template_agency • template_shop • template_blog • template_app
-- template_consult • template_event
+## 🚀 How to buy
+1. Send **20 USDT** to either wallet above.
+2. Open `sales_page.html` → fill the form (email + TXID + network).
+3. Within 2 minutes, you receive the ZIP + password (`USDT20`).
 
-## 🚀 التسليم
-- sales_page.html ← افتحه في المتصفح للبيع
-- templates/*.html ← كل القالب
-- black_templates_kit_2026.zip ← الـ kit الموحد
+## 📂 Files
+| File | Description |
+|---|---|
+| `sales_page.html` | Public sales page (with QR + password) |
+| `black_templates_kit_2026.zip` | Protected ZIP (password: `USDT20`) |
+| `templates/template_*.html` | 10 templates (crypto, ai, saas, portfolio, agency, shop, blog, app, consult, event) |
+| `logo.html` | Black Studio logo |
 
-## ⚖️ الترخيص
-مجاناً — استعملها كما تحب (شرط الدفع USDT).
-مُصمم بـ Ollama + NVIDIA RTX Voice • محلي 100%
+## 🔐 License
+MIT for source code. Templates are **products for sale** — not free.  
+Each purchase = 1 personal license (use in your projects/clients).  
+Reselling/redistributing unmodified templates is not allowed.
 
 ---
-## 🔒 كيفية الحصول على الـ ZIP (محمي)
-1. أرسل 20 USDT (BEP-20 أو TRC-20)
-2. املأ النموذج على sales_page.html
-3. أنت تتلقى **password للـ ZIP** في رد البريد: `USDT20`
-4. حمل الـ ZIP ← استخدم الـ password لتفتحه
-
-(هذا يمنع التحميل غير المروّض — كل نسخة فريدة)
+© 2026 Black Studio — Built with Ollama + NVIDIA RTX Voice · m30na100%
